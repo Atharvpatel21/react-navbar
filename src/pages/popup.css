@@ -1,0 +1,125 @@
+.popup {
+    position: fixed; 
+    top: 0;
+    right:0;
+    width: 25%;
+    height: auto;
+    padding:20px;
+    background-color:white;
+     display:flex; 
+  
+    align-items: center;
+    bottom: 10px;
+  
+    right:3rem;
+   
+    padding-bottom: 3.5rem;
+}
+.popup-inner {
+    position: relative;
+    padding:32px;
+    width:100%;
+    max-width: 620px;
+    background-color: #003399;
+}
+
+.popup-inner .close-btn {
+    position: absolute;
+    top:16px;
+    right: 16px;
+    
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    /* border-radius: 50px; */
+     display: flex; 
+}
+.search-txt{
+    height:3rem;
+    padding-right: 5.5rem;
+    text-align: left;
+    position: relative;
+    line-height: 1rem;
+    z-index: 2;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+.search-btn{
+   right:1px;
+   /* border-radius:0 4px 4px 0; */
+   cursor: pointer;
+   line-height: 1.618;
+    height: calc(100% - .125rem); 
+   width: 3rem;
+   /* background-color: #003399; */
+   /* transform:translateY(-50%); */
+   z-index: 2;
+}
+textarea{
+    /* width: 100%; */
+    width: 115%;
+    border:none;
+    outline: none;
+    background-color: white;
+    padding: 10px;
+    height: 25px;
+  }
+  textarea:focus{
+      background-color: rgb(163, 163, 219);
+  }
+  .send-btn {
+   
+        background-color: orange;
+        color: white;
+        padding: 6px 12px;
+        width: 20%;
+        cursor: pointer;
+        
+    }
+  .label{
+        font-family: monospace;
+        font-size: 26px;
+        display: flex;
+        padding: 5px 0px;
+        font-weight: 700;
+        justify-content: center;
+        color: white;
+      
+       }
+ .close-icon{
+        background-color:#003399;
+        border:none;
+        width: 25px;
+       
+ }
+ .body-chat{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+    z-index: 1;
+
+ }
+ .chat-panel{
+    width: 160%;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    background-color: white;
+    border-color: #003399;
+    height: 130px;
+ }
+ .main-panel{
+    position:fixed;
+    bottom:25.1875rem;
+    right:3rem;
+    width:400px;
+    height:100vh; 
+    padding-bottom: 3.5rem;
+ }
